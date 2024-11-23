@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export default function ImageComponent({source}) {
+export default function ImageComponent({source}: { source: string}) {
   return (
     <div className="relative flex justify-center items-center w-2/3 h-auto">
     <Image
